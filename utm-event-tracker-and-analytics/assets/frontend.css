@@ -1,0 +1,67 @@
+.utm-event-tracker-preview {
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	max-width: 500px;
+	padding: 15px 20px;
+	background-color: #fff;
+	z-index: 999999;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	border-radius: 8px !important;
+}
+
+.utm-event-tracker-preview a {
+	text-decoration: underline !important;
+}
+
+.utm-event-tracker-preview h4 {
+	color: red !important;
+	font-size: 20px !important;
+	font-weight: bold !important;
+	margin-block: 0 5px !important;
+}
+
+.utm-event-tracker-preview ol {
+	margin: 0 !important;
+	line-height: 1.2 !important;
+	margin-inline-start: 0 !important;
+	padding-inline-start: 13px !important;
+}
+
+.utm-event-tracker-preview ol li {
+	margin: 0 !important;
+}
+
+.utm-event-tracker-preview ol li+li {
+	margin-top: 8px !important;
+}
+
+.utm-event-tracker-preview .red {
+	color: red !important;
+}
+
+.utm-event-tracker-preview p {
+	line-height: 1.2!important;
+	margin-block: 15px 0 !important;
+}
+
+.utm-event-tracker-preview .preview-actions {
+	margin-top: 20px !important;
+}
+
+.utm-event-tracker-preview .preview-actions a {
+	color: #4c2dc1 !important;
+	font-size: 14px;
+	display: inline-block;
+	padding: 5px 10px !important;
+	border-radius: 3px !important;
+	text-decoration: none !important;
+	background-color: transparent !important;
+	border: 1px solid #4c2dc1 !important;
+	transition: all 200ms;
+}
+
+.utm-event-tracker-preview .preview-actions a:hover {
+	color: #fff !important;
+	background-color: #4c2dc1 !important;
+}
